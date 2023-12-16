@@ -7,37 +7,34 @@
  * add search result box
  */
 function add_entry (entry) {
-    // const term = document.getElementById('term');
-    // const morphology = document.getElementById('morphology');
-    // const definition = document.getElementById('definition');
-
     const results = document.getElementById('results');
 
     results.innerHTML +=
         '<div class="term-box">' +
         '<div><p id="term" class="term-header"><i>' + entry.word + '</i></p></div>' +
-        '<div><p id="morphology" class="term-info">';
+        '<div><p id="morphology" class="term-info"></p></div>' +
+        '<div><p class="term-info">' + entry.type + ' (' + entry.paradigm + ')</p>' +
+        '<p id="definition" class="term-info"><q>' + entry.definition + '</q></p></div>' +
+        '</div>';
+
+    const morphology = document.getElementById('morphology');
 
     for (let key in entry.morphemes) {
         if (key != 'stem') {
             if (typeof entry.morphemes[key] === 'string') {
-                results.innerHTML += entry.morphemes[key].replace(/[0-9]/g, '');
-                results.innerHTML += '- (' + key + ') + ';
+                morphology.innerHTML += entry.morphemes[key].replace(/[0-9]/g, '');
+                morphology.innerHTML += '- (' + key + ') + ';
             }
             else {
                 for (var i = 0; i < entry.morphemes[key].length; ++i) {
-                    results.innerHTML += entry.morphemes[key][i].replace(/[0-9]/g, '');
-                    results.innerHTML += '- (' + key + ') + ';
+                    morphology.innerHTML += entry.morphemes[key][i].replace(/[0-9]/g, '');
+                    morphology.innerHTML += '- (' + key + ') + ';
                 }
             }
         }
     }
 
-    results.innerHTML +=
-        '-' + entry.morphemes.stem + ' [' + entry.root + ']</p></div>' +
-        '<div><p class="term-info">' + entry.type + ' (' + entry.paradigm + ')</p>' +
-        '<p id="definition" class="term-info"><q>' + entry.definition + '</q></p></div>' +
-        '</div>';
+    morphology.innerHTML += '-' + entry.morphemes.stem + ' [' + entry.root + ']';
 
     const table = document.createElement('table');
 
