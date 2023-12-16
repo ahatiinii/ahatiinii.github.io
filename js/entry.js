@@ -16,8 +16,27 @@ function add_entry (entry) {
     results.innerHTML +=
         '<div class="term-box">' +
         '<div><p id="term" class="term-header"><i>' + entry.word + '</i></p></div>' +
-        '<div><p id="morphology" class="term-info"><ul><li>' + entry.root + '</li></ul></p></div>' +
-        '<div><p class="term-info">' + entry.type + '</p><p id="definition" class="term-info"><ul><li>' + entry.definition + '</li></ul></p></div>' +
+        '<div><p id="morphology" class="term-info">';
+
+    for (let key in entry.morphemes) {
+        if (key != 'stem') {
+            if (typeof entry.morphemes[key] === 'string') {
+                results.innerHTML += entry.morpheme[key].replace(/[0-9]/g, '');
+                results.innerHTML += '- (' + key + ') + ';
+            }
+            else {
+                for (let morph in entry.morphemes[key]) {
+                    results.innerHTML += morph.replace(/[0-9]/g, '');
+                    results.innerHTML += '- (' + key + ') + ';
+                }
+            }
+        }
+    }
+
+    results.innerHTML +=
+        '-' + entry.morphemes.stem + ' [' + entry.root + ']</p></div>' +
+        '<div><p class="term-info">' + entry.type + ' (' + entry.paradigm + ')</p>' +
+        '<p id="definition" class="term-info"><q>' + entry.definition + '</q></p></div>' +
         '</div>';
 
     const table = document.createElement('table');

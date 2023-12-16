@@ -6,11 +6,11 @@
             "type": "verb",
             "definition" : "it is good, fine, wonderful",
             "paradigm" : "neuter imperfective",
-            "root" : "-tʼééh",
+            "root" : "TʼÉÉH",
             "morphemes" : {
-                "pos_Ib" : [ "yá3", "ʼá3" ],
-                "pos_VIb" : "ni6",
-                "cls" : "∅",
+                "Ib" : [ "yá3", "ʼá3" ],
+                "VIb" : "ni6",
+                "CLS" : "∅",
                 "stem" : "tʼééh"
             },
             "inflection" : {
@@ -33,11 +33,11 @@
             "type": "verb",
             "definition" : "one rolls it",
             "paradigm" : "yi-progressive",
-            "root" : "-bąąz",
+            "root" : "BĄĄZ",
             "morphemes" : {
-                "pos_IV" : "yi1",
-                "pos_VII" : "yi3",
-                "cls" : "ł",
+                "IV" : "yi1",
+                "VII" : "yi3",
+                "CLS" : "ł",
                 "stem" : "bąs"
             },
             "inflection" : {
