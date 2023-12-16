@@ -13,7 +13,7 @@ function add_entry (entry) {
         '<div class="term-box">' +
         '<div><p id="term" class="term-header"><i>' + entry.word + '</i></p></div>' +
         '<div><p id="morphology" class="term-info"></p></div>' +
-        '<div><p class="term-info">' + entry.type + ' (' + entry.paradigm + ')</p>' +
+        '<div><p class="term-info">' + entry.type + ' (' + entry.paradigm + '):</p>' +
         '<p id="definition" class="term-info"><q>' + entry.definition + '</q></p></div>' +
         '</div>';
 
