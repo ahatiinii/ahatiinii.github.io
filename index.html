@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- favicon -->
+        <!--  - general -->
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+        <!--  - google & android -->
+        <link rel="icon" type="image/png" sizes="48x48" href="./assets/icons/favicon-48x48.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="./assets/icons/favicon-192x192.png">
+        <!--  - ipad -->
+        <link rel="apple-touch-icon" type="image/png" sizes="167x167" href="./assets/icons/favicon-167x167.png">
+        <!--  - iphone -->
+        <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="./assets/icons/favicon-180x180.png">
+
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="./assets/styles/styles.css">
+
+        <title>&#x00C1h&#x00E1t&#x02BC&#x00EDinii</title>
     </head>
 
     <body>
-        <div id="blah"></div>
+        <h1>&#x00C1h&#x00E1t&#x02BC&#x00EDinii: a Navajo verb dictionary</h1>
+        <h2>(proof of concept)</h2>
 
-        <script src="./test.js"></script>
+        <!-- search bar -->
+        <form>
+              <input type="text" id="keyword" name="keyword" autocomplete="off" placeholder="search" autofocus>
+              <button type="submit"><i class="search-button"></i></button>
+        </form>
+
+        <!-- special character buttons -->
+        <div class="button-box">
+            <p>
+            <!-- MODIFIER APOSTROPHE -->
+            <input type="button" value="&#x02BC" onclick="enter_letter('&#x02BC')">
+            <!-- L WITH STROKE -->
+            <input type="button" value="&#x0142" onclick="enter_letter('&#x0142')">
+            <!-- A WITH ACUTE -->
+            <input type="button" value="&#x00E1" onclick="enter_letter('&#x00E1')">
+            <!-- E WITH ACUTE -->
+            <input type="button" value="&#x00E9" onclick="enter_letter('&#x00E9')">
+            <!-- I WITH ACUTE -->
+            <input type="button" value="&#x00ED" onclick="enter_letter('&#x00ED')">
+            <!-- O WITH ACUTE -->
+            <input type="button" value="&#x00F3" onclick="enter_letter('&#x00F3')">
+            <!-- A WITH OGONEK -->
+            <input type="button" value="&#x0105" onclick="enter_letter('&#x0105')">
+            <!-- E WITH OGONEK -->
+            <input type="button" value="&#x0119" onclick="enter_letter('&#x0119')">
+            <!-- I WITH OGONEK -->
+            <input type="button" value="&#x012F" onclick="enter_letter('&#x012F')">
+            <!-- O WITH OGONEK -->
+            <input type="button" value="&#x01EB" onclick="enter_letter('&#x01EB')">
+            <!-- A WITH OGONEK + COMBINING ACUTE -->
+            <input type="button" value="&#x0105&#x0301" onclick="enter_letter('&#x0105&#x0301')">
+            <!-- E WITH OGONEK + COMBINING ACUTE -->
+            <input type="button" value="&#x0119&#x0301" onclick="enter_letter('&#x0119&#x0301')">
+            <!-- I WITH OGONEK + COMBINING ACUTE -->
+            <input type="button" value="&#x012F&#x0301" onclick="enter_letter('&#x012F&#x0301')">
+            <!-- O WITH OGONEK + COMBINING ACUTE -->
+            <input type="button" value="&#x01EB&#x0301" onclick="enter_letter('&#x01EB&#x0301')">
+            </p>
+        </div>
+
+        <div>
+            <p class="info" id="match-info"></p>
+        </div>
+
+        <div id="results"></div>
+
+        <!--
+        <button class="accordion">Section 1</button>
+        <div class="panel">
+            <p>Lorem ipsum...</p>
+        </div>
+        -->
+
+        <script src="./js/input.js"></script>
+        <script src="./js/entry.js"></script>
+        <script src="./js/database.js"></script>
+        <script src="./js/search.js"></script>
     </body>
 </html>
