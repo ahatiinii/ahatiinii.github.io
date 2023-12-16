@@ -25,8 +25,8 @@ function add_entry (entry) {
                 results.innerHTML += '- (' + key + ') + ';
             }
             else {
-                for (let morph in entry.morphemes[key]) {
-                    results.innerHTML += morph.replace(/[0-9]/g, '');
+                for (var i = 0; i < entry.morphemes[key].length; ++i) {
+                    results.innerHTML += entry.morphemes[key][i].replace(/[0-9]/g, '');
                     results.innerHTML += '- (' + key + ') + ';
                 }
             }
