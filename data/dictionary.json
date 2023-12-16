@@ -8,7 +8,7 @@
             "paradigm" : "neuter imperfective",
             "root" : "-tʼééh",
             "morphemes" : [
-                "pos_Ib" : [ "yá3", "ʼá3" ],
+                "pos_Ib" : { "yá3", "ʼá3" },
                 "pos_VIb" : "ni6",
                 "cls" : "∅",
                 "stem" : "tʼééh"
