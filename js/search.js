@@ -9,7 +9,7 @@ search_main();
 async function search_main () {
     const keyword = new URL(location.href).searchParams.get('keyword');
 
-    await load_json();
+    await db_main();
 
     if (keyword != undefined)
         search(keyword);
