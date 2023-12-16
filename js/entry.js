@@ -21,7 +21,7 @@ function add_entry (entry) {
     for (let key in entry.morphemes) {
         if (key != 'stem') {
             if (typeof entry.morphemes[key] === 'string') {
-                results.innerHTML += entry.morpheme[key].replace(/[0-9]/g, '');
+                results.innerHTML += entry.morphemes[key].replace(/[0-9]/g, '');
                 results.innerHTML += '- (' + key + ') + ';
             }
             else {
