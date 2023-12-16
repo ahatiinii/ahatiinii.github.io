@@ -17,7 +17,8 @@ function add_entry (entry) {
         '<div class="term-box">' +
         '<div><p id="term" class="term-header"><i>' + entry.word + '</i></p></div>' +
         '<div><p id="morphology" class="term-info"><ul><li>' + entry.root + '</li></ul></p></div>' +
-        '<div><p class="term-info">' + entry.type + '</p><p id="definition" class="term-info"><ul><li>' + entry.definition + '</li></ul></p></div>';
+        '<div><p class="term-info">' + entry.type + '</p><p id="definition" class="term-info"><ul><li>' + entry.definition + '</li></ul></p></div>' +
+        '</div>';
 
     const table = document.createElement('table');
 
@@ -90,7 +91,5 @@ function add_entry (entry) {
     if (entry.inflection.i_3a_pl != undefined)
         cell.innerHTML = entry.inflection.i_3a_pl;
 
-    document.body.appendChild(table);
-
-    results.innerHTML += '</div>';
+    results.children[results.children.length - 1].appendChild(table);
 }
