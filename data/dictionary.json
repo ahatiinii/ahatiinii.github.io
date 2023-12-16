@@ -7,13 +7,13 @@
             "definition" : "it is good, fine, wonderful",
             "paradigm" : "neuter imperfective",
             "root" : "-tʼééh",
-            "morphemes" : [
-                "pos_Ib" : { "yá3", "ʼá3" },
+            "morphemes" : {
+                "pos_Ib" : [ "yá3", "ʼá3" ],
                 "pos_VIb" : "ni6",
                 "cls" : "∅",
                 "stem" : "tʼééh"
-            ],
-            "inflection" : [
+            },
+            "inflection" : {
                 "i_1_sg" : "yáʼáníshtʼééh",
                 "i_2_sg" : "yáʼánítʼééh",
                 "i_3_sg" : "yáʼátʼééh",
@@ -24,7 +24,7 @@
                 "i_2_pl" : "yáʼádanohtʼééh",
                 "i_3_pl" : "yáʼádaatʼééh",
                 "i_3a_pl" : "yáʼádajitʼééh"
-            ]
+            }
         },
 
         {
@@ -34,13 +34,13 @@
             "definition" : "one rolls it",
             "paradigm" : "yi-progressive",
             "root" : "-bąąz",
-            "morphemes" : [
+            "morphemes" : {
                 "pos_IV" : "yi1",
                 "pos_VII" : "yi3",
                 "cls" : "ł",
                 "stem" : "bąs"
-            ],
-            "inflection" : [
+            },
+            "inflection" : {
                 "i_1_sg" : "yisbąs",
                 "i_2_sg" : "yíłbąs",
                 "i_3_sg" : "yoołbąs",
@@ -51,7 +51,7 @@
                 "i_2_pl" : "deínółbąąs",
                 "i_3_pl" : "deíłbąąs",
                 "i_3a_pl" : "dajíłbąąs"
-            ]
+            }
         }
     ]
 }
