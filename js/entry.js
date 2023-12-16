@@ -22,19 +22,19 @@ function add_entry (entry) {
     for (let key in entry.morphemes) {
         if (key != 'stem') {
             if (typeof entry.morphemes[key] === 'string') {
-                morphology.innerHTML += entry.morphemes[key].replace(/[0-9]/g, '');
-                morphology.innerHTML += '- (' + key + ') + ';
+                morphology.innerHTML += '<i>' + entry.morphemes[key].replace(/[0-9]/g, '') + '-</i>';
+                morphology.innerHTML += ' (' + key + ') + ';
             }
             else {
                 for (var i = 0; i < entry.morphemes[key].length; ++i) {
-                    morphology.innerHTML += entry.morphemes[key][i].replace(/[0-9]/g, '');
-                    morphology.innerHTML += '- (' + key + ') + ';
+                    morphology.innerHTML += '<i>' + entry.morphemes[key][i].replace(/[0-9]/g, '') + '-</i>';
+                    morphology.innerHTML += ' (' + key + ') + ';
                 }
             }
         }
     }
 
-    morphology.innerHTML += '-' + entry.morphemes.stem + ' [' + entry.root + ']';
+    morphology.innerHTML += '<i>-' + entry.morphemes.stem + '</i> [<i>' + entry.root + '</i>]';
 
     const table = document.createElement('table');
 
