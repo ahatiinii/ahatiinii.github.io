@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- favicon -->
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="./assets/icons/favicon-48x48.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="./assets/icons/favicon-192x192.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="167x167" href="./assets/icons/favicon-167x167.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="./assets/icons/favicon-180x180.png">
+
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="./assets/styles/styles.css">
+
+        <title>&Aacute;h&aacute;t&#x02BC;&iacute;inii</title>
+    </head>
+
+    <body>
+        <!-- header -->
+        <div id="header">
+            <h1><i>&Aacute;h&aacute;t&#x02BC;&iacute;inii</i></h1>
+            <h2>A Navajo Verb Dictionary</h2>
+        </div>
+
+        <!-- navigation bar -->
+        <div id="navbar">
+            <div id="navbar-left">
+                <a href="./index.html">Search</a>
+                <a href="./appendix/index">Index</a>
+                <a href="./appendix/grammar">Grammar</a>
+                <a href="./appendix/glossary">Glossary</a>
+            </div>
+
+            <div id="navbar-right">
+                <a href="./contact">Contact</a>
+            </div>
+        </div>
+
+        <div class="centered-text">
+            <span>To report an issue, submit a suggestion, or just have a chat, contact me at <a href="mailto:ahatiiniinv@gmail.com">ahatiiniinv@gmail.com</a>.</span>
+        </div>
+    </body>
+</html>

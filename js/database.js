@@ -18,33 +18,40 @@ async function db_main () {
 /*
  * search the database
  */
-function search_db (query, fuzzy) {
-    // change apostrophe or single quote to modifier apostrophe
-    var nquery = query.replace(/[\u0027\u2018\u2019]/g, '\u02BC');
+function search_db (query) {
+    // normalized query string
+    var nquery = query.replace(/[\u0027\u2018\u2019]/g, '\u02BC').toLowerCase();
 
-    var results = [];
+    // stripped query string for fuzzy matching
+    var squery = strip_word(nquery);
 
-    // exact search
-    if (!fuzzy) {
-        for (let i = 0; i < this.database.dictionary.length; ++i) {
-            if (this.database.dictionary[i].word == nquery) {
-                results.push(this.database.dictionary[i]);
-                break;
+    var results_exact = [];
+    var results_fuzzy = [];
+    var results_definition = [];
+
+    for (let i = 0; i < this.database.dictionary.length; ++i) {
+        if (this.database.dictionary[i].fuzzy == squery) {
+            if (this.database.dictionary[i].word.toLowerCase() == nquery) {
+                // exact match
+                results_exact.push(this.database.dictionary[i]);
+            }
+            else {
+                // fuzzy match
+                results_fuzzy.push(this.database.dictionary[i]);
+            }
+        }
+        else {
+            let re = new RegExp('\\b' + nquery + '\\b');
+
+            if (this.database.dictionary[i].definition.toLowerCase().match(re)) {
+                // match in definition
+                results_definition.push(this.database.dictionary[i]);
             }
         }
     }
-    // fuzzy search
-    else {
-        nquery = strip_word(nquery);
 
-        for (let i = 0; i < this.database.dictionary.length; ++i) {
-            if (this.database.dictionary[i].fuzzy == nquery) {
-                results.push(this.database.dictionary[i]);
-            }
-        }
-    }
-
-    return results;
+    // results in order: exact match, fuzzy match, match in definition
+    return results_exact.concat(results_fuzzy, results_definition);
 }
 
 
@@ -55,10 +62,10 @@ function strip_word (string) {
     var newstring = string.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     newstring = newstring.replace(/\u0142/g, 'l');
     newstring = newstring.replace(/([aeio])\1/g, '$1');
-    newstring = newstring.replace(/[\u0027\u2018\u2019\u02BC]/g, '');
+    newstring = newstring.replace(/\u02BC/g, '');
 
     newstring = newstring.replace(/h([bcdgjklmnstyz])/g, '$1');
     newstring = newstring.replace(/h$/g, '');
 
-    return newstring.toLowerCase();
+    return newstring;
 }

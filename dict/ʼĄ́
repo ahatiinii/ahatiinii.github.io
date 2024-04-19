@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="../assets/icons/favicon-48x48.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="../assets/icons/favicon-192x192.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="167x167" href="../assets/icons/favicon-167x167.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../assets/icons/favicon-180x180.png">
+
+        <link rel="stylesheet" href="../assets/styles/styles.css">
+
+        <title>&#x2BC;&#x104;&#x301; - &Aacute;h&aacute;t&#x02BC;&iacute;inii</title>
+    </head>
+
+    <body>
+        <div id="header">
+            <h1><i>&Aacute;h&aacute;t&#x02BC;&iacute;inii</i></h1>
+            <h2>A Navajo Verb Dictionary</h2>
+        </div>
+
+        <div id="navbar">
+            <div id="navbar-left">
+                <a href="../index.html">Search</a>
+                <a href="../appendix/index">Index</a>
+                <a href="../appendix/grammar">Grammar</a>
+                <a href="../appendix/glossary">Glossary</a>
+            </div>
+
+            <div id="navbar-right">
+                <a href="../contact">Contact</a>
+            </div>
+        </div>
+
+        <div id="page-content">
+            <h3>&#x2BC;&#x104;&#x301;</h3>
+            <hr class="underline">
+
+                <h4>Root</h4>
+                <div>
+                    <span>
+                        <ol>
+                            <li><span>Handle <a class="glossary-link" href="../appendix/glossary#SRO">SRO</a>.</span></li>
+                        </ol>
+                    </span>
+                </div>
+
+                <h4>Stems</h4>
+                <div>
+                    <span>
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th><a class="glossary-link" title="Imperfective" href="../appendix/glossary#Imperfective">IMP</a></th>
+                                <th><a class="glossary-link" title="Iterative" href="../appendix/glossary#Iterative">ITER</a></th>
+                                <th><a class="glossary-link" title="Perfective" href="../appendix/glossary#Perfective">PERF</a></th>
+                                <th><a class="glossary-link" title="Progressive" href="../appendix/glossary#Progressive">PROG</a></th>
+                                <th><a class="glossary-link" title="Future" href="../appendix/glossary#Future">FUT</a></th>
+                                <th><a class="glossary-link" title="Optative" href="../appendix/glossary#Optative">OPT</a></th>
+                            </tr>
+                            <tr>
+                                <th><a class="glossary-link" title="Momentaneous" href="../appendix/glossary#Momentaneous">MOM</a></th>
+                                <td>&#x2BC;aah</td>
+                                <td>&#x2BC;&aacute;&aacute;h</td>
+                                <td>&#x2BC;&#x105;&#x301;</td>
+                                <td></td>
+                                <td>&#x2BC;&aacute;&aacute;&#x142;</td>
+                                <td>&#x2BC;&aacute;&aacute;&#x142;</td>
+                            </tr>
+                            <tr>
+                                <th><a class="glossary-link" title="Conative" href="../appendix/glossary#Conative">CON</a></th>
+                                <td>&#x2BC;&aacute;&aacute;h</td>
+                                <td>&#x2BC;&aacute;&aacute;h</td>
+                                <td>&#x2BC;&aacute;&aacute;h</td>
+                                <td></td>
+                                <td>&#x2BC;&aacute;&aacute;h</td>
+                                <td>&#x2BC;aa&#x142;</td>
+                            </tr>
+                            <tr>
+                                <th><a class="glossary-link" title="Continuative" href="../appendix/glossary#Continuative">CONT</a></th>
+                                <td>&#x2BC;&aacute;</td>
+                                <td>&#x2BC;aah</td>
+                                <td>&#x2BC;&#x105;&#x301;</td>
+                                <td></td>
+                                <td>&#x2BC;aa&#x142;</td>
+                                <td>&#x2BC;aa&#x142;</td>
+                            </tr>
+                            <tr>
+                                <th><a class="glossary-link" title="Cursive" href="../appendix/glossary#Cursive">CURS</a></th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&#x2BC;&aacute;&aacute;&#x142;/&#x2BC;aah</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th><a class="glossary-link" title="Distributive" href="../appendix/glossary#Distributive">DIST</a></th>
+                                <td>&#x2BC;a&#x2BC;</td>
+                                <td>&#x2BC;aah</td>
+                                <td>&#x2BC;&#x105;&#x301;</td>
+                                <td></td>
+                                <td>&#x2BC;aa&#x142;</td>
+                                <td>&#x2BC;a&#x2BC;</td>
+                            </tr>
+                            <tr>
+                                <th><a class="glossary-link" title="Diversative" href="../appendix/glossary#Diversative">DIV</a></th>
+                                <td>&#x2BC;a&#x2BC;</td>
+                                <td>&#x2BC;aah</td>
+                                <td>&#x2BC;&#x105;&#x301;</td>
+                                <td></td>
+                                <td>&#x2BC;aa&#x142;</td>
+                                <td>&#x2BC;a&#x2BC;</td>
+                            </tr>
+                            <tr>
+                                <th><a class="glossary-link" title="Reversative" href="../appendix/glossary#Reversative">REV</a></th>
+                                <td>&#x2BC;&aacute;&aacute;h</td>
+                                <td>&#x2BC;aah</td>
+                                <td>&#x2BC;&#x105;&#x301;</td>
+                                <td></td>
+                                <td>&#x2BC;&aacute;&aacute;&#x142;/&#x2BC;aah</td>
+                                <td>&#x2BC;&aacute;&aacute;&#x142;</td>
+                            </tr>
+                            <tr>
+                                <th><a class="glossary-link" title="Transitional" href="../appendix/glossary#Transitional">TRANS</a></th>
+                                <td>&#x2BC;aah</td>
+                                <td>&#x2BC;aah</td>
+                                <td>&#x2BC;a&#x2BC;</td>
+                                <td></td>
+                                <td>&#x2BC;aa&#x142;</td>
+                                <td>&#x2BC;aah</td>
+                            </tr>
+                            <tr>
+                                <th><a class="glossary-link" title="Neuter" href="../appendix/glossary#Neuter">NEUT</a></th>
+                                <td></td>
+                                <td></td>
+                                <td>&#x2BC;&#x105;&#x301;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </span>
+                </div>
+        </div>
+    </body>
+</html>

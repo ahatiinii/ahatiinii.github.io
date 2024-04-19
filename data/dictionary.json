@@ -1,57 +1,17 @@
 {
     "dictionary" : [
         {
-            "word" : "yáʼátʼééh",
-            "fuzzy" : "yaate",
+            "word" : "yáʼáníshtʼééh",
+            "fuzzy" : "yaanishte",
             "type": "verb",
-            "definition" : "it is good, fine, wonderful",
-            "paradigm" : "neuter imperfective",
-            "root" : "TʼÉÉH",
-            "morphemes" : {
-                "Ib" : [ "yá3", "ʼá3" ],
-                "VIb" : "ni6",
-                "CLS" : "∅",
-                "stem" : "tʼééh"
-            },
-            "inflection" : {
-                "i_1_sg" : "yáʼáníshtʼééh",
-                "i_2_sg" : "yáʼánítʼééh",
-                "i_3_sg" : "yáʼátʼééh",
-                "i_3a_sg" : "yáʼájítʼééh",
-                "i_1_dpl" : "yáʼániitʼééh",
-                "i_2_dpl" : "yáʼánóhtʼééh",
-                "i_1_pl" : "yáʼádaniitʼééh",
-                "i_2_pl" : "yáʼádanohtʼééh",
-                "i_3_pl" : "yáʼádaatʼééh",
-                "i_3a_pl" : "yáʼádajitʼééh"
-            }
+            "definition" : "to be well, good, suitable, agreeable"
         },
 
         {
-            "word" : "yoołbąs",
-            "fuzzy" : "yolbas",
+            "word" : "ashishʼaah",
+            "fuzzy" : "ashisha",
             "type": "verb",
-            "definition" : "one rolls it",
-            "paradigm" : "yi-progressive",
-            "root" : "BĄĄZ",
-            "morphemes" : {
-                "IV" : "yi1",
-                "VII" : "yi3",
-                "CLS" : "ł",
-                "stem" : "bąs"
-            },
-            "inflection" : {
-                "i_1_sg" : "yisbąs",
-                "i_2_sg" : "yíłbąs",
-                "i_3_sg" : "yoołbąs",
-                "i_3a_sg" : "joołbąs",
-                "i_1_dpl" : "yiilbąs",
-                "i_2_dpl" : "wołbąs",
-                "i_1_pl" : "deíníilbąąs",
-                "i_2_pl" : "deínółbąąs",
-                "i_3_pl" : "deíłbąąs",
-                "i_3a_pl" : "dajíłbąąs"
-            }
+            "definition" : "to place an unspecified SRO in position (where it remains static)"
         }
     ]
 }

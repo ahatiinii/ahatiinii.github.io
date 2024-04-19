@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- favicon -->
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="../assets/icons/favicon-48x48.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="../assets/icons/favicon-192x192.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="167x167" href="../assets/icons/favicon-167x167.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../assets/icons/favicon-180x180.png">
+
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="../assets/styles/styles.css">
+
+        <title>yáʼáníshtʼééh - &Aacute;h&aacute;t&#x02BC;&iacute;inii</title>
+    </head>
+
+    <body>
+        <!-- header -->
+        <div id="header">
+            <h1><i>&Aacute;h&aacute;t&#x02BC;&iacute;inii</i></h1>
+            <h2>A Navajo Verb Dictionary</h2>
+        </div>
+
+        <!-- navigation bar -->
+        <div id="navbar">
+            <div id="navbar-left">
+                <a href="../index.html">Search</a>
+                <a href="../appendix/index">Index</a>
+                <a href="../appendix/grammar">Grammar</a>
+                <a href="../appendix/glossary">Glossary</a>
+            </div>
+
+            <div id="navbar-right">
+                <a href="../contact">Contact</a>
+            </div>
+        </div>
+
+        <!-- entry -->
+        <div id="page-content">
+            <h3>yáʼáníshtʼééh</h3>
+            <hr class="underline">
+
+            <!-- derivation -->
+            <h4>Derivation</h4>
+            <div>
+                <span>
+                    <b>Root:</b>&nbsp; <a href="./TʼÉÉH"><i>TʼÉÉH</i></a>&nbsp; <q>good, well, suitable</q><br>
+                    <b>Theme:</b>&nbsp; <a class="glossary-link" href="../appendix/glossary#neuter">neuter</a>, <a class="glossary-link" href="../appendix/glossary#&#x2205;-classifier">&#x2205;-classifier</a> (<a class="glossary-link" href="../appendix/glossary#intransitive_verb">intransitive</a>)<br>
+                    <b>Thematic prefixes:</b>&nbsp; <a href="./yá-"><i>yá-</i></a>&nbsp; <q>good</q> + <a href="./ʼá-"><i>ʼá-</i></a> (comparative aspect) + <a href="./ni-"><i>ni-</i></a> (neuter imperfective adjectival)<br>
+                    <b>Conjugation paradigm:</b>&nbsp; <a class="glossary-link" href="../appendix/glossary#∅-imperfective">∅-imperfective</a><br>
+                </span>
+            </div>
+
+            <!-- definition -->
+            <h4>Verb</h4>
+            <div>
+                <span>
+                    <ol>
+                        <li><span>To be well, good, suitable, agreeable.</span></li>
+                    </ol>
+                </span>
+            </div>
+
+            <h4>Interjection</h4>
+            <div>
+                <span>
+                    <ol>
+                        <li><span><i>yáʼátʼééh</i>: Hello.</span></li>
+                    </ol>
+                </span>
+            </div>
+
+            <!-- conjugation -->
+            <h4>Conjugation</h4>
+            <div>
+                <span>
+                    <b>∅-imperfective</b>
+                    <table>
+                        <tr>
+                            <th colspan="2"></th>
+                            <th><a class="glossary-link" title="Imperfective" href="../appendix/glossary#imperfective">IMP</a></th>
+                        </tr>
+
+                        <tr>
+                            <th rowspan="4"><a class="glossary-link" title="Singular" href="../appendix/glossary#singular">SG</a></th>
+                            <th><a class="glossary-link" title="First person" href="../appendix/glossary#first_person">1</a></th>
+                            <td>yáʼáníshtʼééh</td>
+                        </tr>
+                        <tr>
+                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary#second_person">2</a></th>
+                            <td>yáʼánítʼééh</td>
+                        </tr>
+                        <tr>
+                            <th><a class="glossary-link" title="Third person" href="../appendix/glossary#third_person">3</a></th>
+                            <td>yáʼátʼééh</td>
+                        </tr>
+                        <tr>
+                            <th><a class="glossary-link" title="Third person obviative" href="../appendix/glossary#third_person_obviative">3a</a></th>
+                            <td>yáʼájítʼééh</td>
+                        </tr>
+
+                        <tr>
+                            <th rowspan="2"><a class="glossary-link" title="Duoplural" href="../appendix/glossary#duoplural">DPL</a></th>
+                            <th><a class="glossary-link" title="First person" href="../appendix/glossary#first_person">1</a></th>
+                            <td>yáʼániitʼééh</td>
+                        </tr>
+                        <tr>
+                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary#second_person">2</a></th>
+                            <td>yáʼánóhtʼééh</td>
+                        </tr>
+
+                        <tr>
+                            <th rowspan="4"><a class="glossary-link" title="Plural" href="../appendix/glossary#plural">PL</a></th>
+                            <th><a class="glossary-link" title="First person" href="../appendix/glossary#first_person">1</a></th>
+                            <td>yáʼádaniitʼééh</td>
+                        </tr>
+                        <tr>
+                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary#second_person">2</a></th>
+                            <td>yáʼádanohtʼééh</td>
+                        </tr>
+                        <tr>
+                            <th><a class="glossary-link" title="Third person" href="../appendix/glossary#third_person">3</a></th>
+                            <td>yáʼádaatʼééh</td>
+                        </tr>
+                        <tr>
+                            <th><a class="glossary-link" title="Third person obviative" href="../appendix/glossary#third_person_obviative">3a</a></th>
+                            <td>yáʼádajitʼééh</td>
+                        </tr>
+                    </table>
+                </span>
+            </div>
+        </div>
+    </body>
+</html>
