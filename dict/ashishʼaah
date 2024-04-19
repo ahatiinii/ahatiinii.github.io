@@ -29,13 +29,13 @@
         <div id="navbar">
             <div id="navbar-left">
                 <a href="../index.html">Search</a>
-                <a href="../appendix/index">Index</a>
-                <a href="../appendix/grammar">Grammar</a>
-                <a href="../appendix/glossary">Glossary</a>
+                <a href="../appendix/index.html">Index</a>
+                <a href="../appendix/grammar.html">Grammar</a>
+                <a href="../appendix/glossary.html">Glossary</a>
             </div>
 
             <div id="navbar-right">
-                <a href="../contact">Contact</a>
+                <a href="../contact.html">Contact</a>
             </div>
         </div>
 
@@ -48,10 +48,10 @@
             <h4>Derivation</h4>
             <div>
                 <span>
-                    <b>Root:</b>&nbsp; <a href="./&#x02BC;&Aogon;&#x0301;"><i>&#x02BC;&Aogon;&#x0301;</i></a>&nbsp; <q>handle <a class="glossary-link" title="Solid roundish object" href="../appendix/glossary#SRO">SRO</a></q><br>
-                    <b>Theme:</b>&nbsp; <a class="glossary-link" href="../appendix/glossary#momentaneous">momentaneous</a>, <a class="glossary-link" href="../appendix/glossary#&#x2205;-classifier">&#x2205;-classifier</a> (<a class="glossary-link" href="../appendix/glossary#transitive_verb">transitive</a>)<br>
+                    <b>Root:</b>&nbsp; <a href="./&#x02BC;&Aogon;&#x0301;"><i>&#x02BC;&Aogon;&#x0301;</i></a>&nbsp; <q>handle <a class="glossary-link" title="Solid roundish object" href="../appendix/glossary.html#SRO">SRO</a></q><br>
+                    <b>Theme:</b>&nbsp; <a class="glossary-link" href="../appendix/glossary.html#momentaneous">momentaneous</a>, <a class="glossary-link" href="../appendix/glossary.html#&#x2205;-classifier">&#x2205;-classifier</a> (<a class="glossary-link" href="../appendix/glossary.html#transitive_verb">transitive</a>)<br>
                     <b>Base prefixes:</b>&nbsp; <a href="./&#x02BC;a-"><i>&#x02BC;a-</i></a>&nbsp; <q>it (something unspecified)</q><br>
-                    <b>Conjugation paradigm:</b>&nbsp; <a class="glossary-link" href="../appendix/glossary#si-imperfective">si-imperfective</a>/<a class="glossary-link" href="../appendix/glossary#si-perfective">si-perfective</a> or <a class="glossary-link" href="../appendix/glossary#&#x2205;-imperfective">&#x2205;-imperfective</a>/<a class="glossary-link" href="../appendix/glossary#si-perfective">si-perfective</a><br>
+                    <b>Conjugation paradigm:</b>&nbsp; <a class="glossary-link" href="../appendix/glossary.html#si-imperfective">si-imperfective</a>/<a class="glossary-link" href="../appendix/glossary.html#si-perfective">si-perfective</a> or <a class="glossary-link" href="../appendix/glossary.html#&#x2205;-imperfective">&#x2205;-imperfective</a>/<a class="glossary-link" href="../appendix/glossary.html#si-perfective">si-perfective</a><br>
                 </span>
             </div>
 
@@ -60,7 +60,7 @@
             <div>
                 <span>
                     <ol>
-                        <li><span>To place an unspecified <a class="glossary-link" title="Solid roundish object" href="../appendix/glossary#SRO">SRO</a> in position (where it remains static).</span></li>
+                        <li><span>To place an unspecified <a class="glossary-link" title="Solid roundish object" href="../appendix/glossary.html#SRO">SRO</a> in position (where it remains static).</span></li>
                         <li><span><a href="./bi&lstrok;"><i>bi&lstrok;</i></a> <a href="./dah"><i>dah</i></a> &mdash;: To button it (something with a single button); to padlock it (a door or gate).</span></li>
                     </ol>
                 </span>
@@ -74,16 +74,16 @@
                     <table>
                         <tr>
                             <th colspan="2"></th>
-                            <th><a class="glossary-link" title="Imperfective" href="../appendix/glossary#imperfective">IMP</a></th>
-                            <th><a class="glossary-link" title="Iterative" href="../appendix/glossary#iterative">ITER</a></th>
-                            <th><a class="glossary-link" title="Perfective" href="../appendix/glossary#perfective">PERF</a></th>
-                            <th><a class="glossary-link" title="Future" href="../appendix/glossary#future">FUT</a></th>
-                            <th><a class="glossary-link" title="Optative" href="../appendix/glossary#optative">OPT</a></th>
+                            <th><a class="glossary-link" title="Imperfective" href="../appendix/glossary.html#imperfective">IMP</a></th>
+                            <th><a class="glossary-link" title="Iterative" href="../appendix/glossary.html#iterative">ITER</a></th>
+                            <th><a class="glossary-link" title="Perfective" href="../appendix/glossary.html#perfective">PERF</a></th>
+                            <th><a class="glossary-link" title="Future" href="../appendix/glossary.html#future">FUT</a></th>
+                            <th><a class="glossary-link" title="Optative" href="../appendix/glossary.html#optative">OPT</a></th>
                         </tr>
 
                         <tr>
-                            <th rowspan="4"><a class="glossary-link" title="Singular" href="../appendix/glossary#singular">SG</a></th>
-                            <th><a class="glossary-link" title="First person" href="../appendix/glossary#first_person">1</a></th>
+                            <th rowspan="4"><a class="glossary-link" title="Singular" href="../appendix/glossary.html#singular">SG</a></th>
+                            <th><a class="glossary-link" title="First person" href="../appendix/glossary.html#first_person">1</a></th>
                             <td>ashish&#x02BC;aah</td>
                             <td>n&aacute;&#x02BC;&aacute;sh&#x02BC;&aacute;&aacute;h</td>
                             <td>as&eacute;&#x02BC;&aogon;&#x0301;</td>
@@ -91,7 +91,7 @@
                             <td>&oacute;sh&#x02BC;&aacute;&aacute;&lstrok;</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary#second_person">2</a></th>
+                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary.html#second_person">2</a></th>
                             <td>as&iacute;&#x02BC;aah</td>
                             <td>n&aacute;&#x02BC;&iacute;&#x02BC;&aacute;&aacute;h</td>
                             <td>as&iacute;n&iacute;&#x02BC;&aogon;&#x0301;</td>
@@ -99,7 +99,7 @@
                             <td>&oacute;&oacute;&#x02BC;&aacute;&aacute;&lstrok;</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Third person" href="../appendix/glossary#third_person">3</a></th>
+                            <th><a class="glossary-link" title="Third person" href="../appendix/glossary.html#third_person">3</a></th>
                             <td>a&#x02BC;aah</td>
                             <td>n&aacute;&#x02BC;&aacute;&#x02BC;&aacute;&aacute;h</td>
                             <td>az&#x02BC;&aogon;&#x0301;</td>
@@ -107,7 +107,7 @@
                             <td>&oacute;&#x02BC;&aacute;&aacute;&lstrok;</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Third person obviative" href="../appendix/glossary#third_person_obviative">3a</a></th>
+                            <th><a class="glossary-link" title="Third person obviative" href="../appendix/glossary.html#third_person_obviative">3a</a></th>
                             <td>aji&#x02BC;aah</td>
                             <td>&nacute;&#x02BC;j&iacute;&#x02BC;&aacute;&aacute;h</td>
                             <td>ajiz&#x02BC;&aogon;&#x0301;</td>
@@ -116,8 +116,8 @@
                         </tr>
 
                         <tr>
-                            <th rowspan="2"><a class="glossary-link" title="Duoplural" href="../appendix/glossary#duoplural">DPL</a></th>
-                            <th><a class="glossary-link" title="First person" href="../appendix/glossary#first_person">1</a></th>
+                            <th rowspan="2"><a class="glossary-link" title="Duoplural" href="../appendix/glossary.html#duoplural">DPL</a></th>
+                            <th><a class="glossary-link" title="First person" href="../appendix/glossary.html#first_person">1</a></th>
                             <td>asii&#x02BC;aah</td>
                             <td>n&aacute;&#x02BC;ii&#x02BC;&aacute;&aacute;h</td>
                             <td>asii&#x02BC;&aogon;&#x0301;</td>
@@ -125,7 +125,7 @@
                             <td>oo&#x02BC;&aacute;&aacute;&lstrok;</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary#second_person">2</a></th>
+                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary.html#second_person">2</a></th>
                             <td>asoh&#x02BC;aah</td>
                             <td>n&aacute;&#x02BC;&oacute;h&#x02BC;&aacute;&aacute;h</td>
                             <td>asoo&#x02BC;&aogon;&#x0301;</td>
@@ -134,8 +134,8 @@
                         </tr>
 
                         <tr>
-                            <th rowspan="4"><a class="glossary-link" title="Plural" href="../appendix/glossary#plural">PL</a></th>
-                            <th><a class="glossary-link" title="First person" href="../appendix/glossary#first_person">1</a></th>
+                            <th rowspan="4"><a class="glossary-link" title="Plural" href="../appendix/glossary.html#plural">PL</a></th>
+                            <th><a class="glossary-link" title="First person" href="../appendix/glossary.html#first_person">1</a></th>
                             <td>da&#x02BC;sii&#x02BC;aah</td>
                             <td>&nacute;da&#x02BC;ii&#x02BC;&aacute;&aacute;h</td>
                             <td>da&#x02BC;sii&#x02BC;&aogon;&#x0301;</td>
@@ -143,7 +143,7 @@
                             <td>da&#x02BC;oo&#x02BC;&aacute;&aacute;&lstrok;</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary#second_person">2</a></th>
+                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary.html#second_person">2</a></th>
                             <td>da&#x02BC;soh&#x02BC;aah</td>
                             <td>&nacute;da&#x02BC;oh&#x02BC;&aacute;&aacute;h</td>
                             <td>da&#x02BC;soo&#x02BC;&aogon;&#x0301;</td>
@@ -151,7 +151,7 @@
                             <td>da&#x02BC;ooh&#x02BC;&aacute;&aacute;&lstrok;</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Third person" href="../appendix/glossary#third_person">3</a></th>
+                            <th><a class="glossary-link" title="Third person" href="../appendix/glossary.html#third_person">3</a></th>
                             <td>da&#x02BC;a&#x02BC;aah</td>
                             <td>&nacute;da&#x02BC;a&#x02BC;&aacute;&aacute;h</td>
                             <td>da&#x02BC;az&#x02BC;&aogon;&#x0301;</td>
@@ -159,7 +159,7 @@
                             <td>da&#x02BC;&oacute;&#x02BC;&aacute;&aacute;&lstrok;</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Third person obviative" href="../appendix/glossary#third_person_obviative">3a</a></th>
+                            <th><a class="glossary-link" title="Third person obviative" href="../appendix/glossary.html#third_person_obviative">3a</a></th>
                             <td>da&#x02BC;ji&#x02BC;aah</td>
                             <td>&nacute;da&#x02BC;ji&#x02BC;&aacute;&aacute;h</td>
                             <td>da&#x02BC;jiz&#x02BC;&aogon;&#x0301;</td>
@@ -172,16 +172,16 @@
                     <table>
                         <tr>
                             <th colspan="2"></th>
-                            <th><a class="glossary-link" title="Imperfective" href="../appendix/glossary#imperfective">IMP</a></th>
-                            <th><a class="glossary-link" title="Iterative" href="../appendix/glossary#iterative">ITER</a></th>
-                            <th><a class="glossary-link" title="Perfective" href="../appendix/glossary#perfective">PERF</a></th>
-                            <th><a class="glossary-link" title="Future" href="../appendix/glossary#future">FUT</a></th>
-                            <th><a class="glossary-link" title="Optative" href="../appendix/glossary#optative">OPT</a></th>
+                            <th><a class="glossary-link" title="Imperfective" href="../appendix/glossary.html#imperfective">IMP</a></th>
+                            <th><a class="glossary-link" title="Iterative" href="../appendix/glossary.html#iterative">ITER</a></th>
+                            <th><a class="glossary-link" title="Perfective" href="../appendix/glossary.html#perfective">PERF</a></th>
+                            <th><a class="glossary-link" title="Future" href="../appendix/glossary.html#future">FUT</a></th>
+                            <th><a class="glossary-link" title="Optative" href="../appendix/glossary.html#optative">OPT</a></th>
                         </tr>
 
                         <tr>
-                            <th rowspan="4"><a class="glossary-link" title="Singular" href="../appendix/glossary#singular">SG</a></th>
-                            <th><a class="glossary-link" title="First person" href="../appendix/glossary#first_person">1</a></th>
+                            <th rowspan="4"><a class="glossary-link" title="Singular" href="../appendix/glossary.html#singular">SG</a></th>
+                            <th><a class="glossary-link" title="First person" href="../appendix/glossary.html#first_person">1</a></th>
                             <td>ash&#x02BC;aah</td>
                             <td>n&aacute;&#x02BC;&aacute;sh&#x02BC;&aacute;&aacute;h</td>
                             <td>as&eacute;&#x02BC;&aogon;&#x0301;</td>
@@ -189,7 +189,7 @@
                             <td>&oacute;sh&#x02BC;&aacute;&aacute;&lstrok;</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary#second_person">2</a></th>
+                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary.html#second_person">2</a></th>
                             <td>&iacute;&#x02BC;aah</td>
                             <td>n&aacute;&#x02BC;&iacute;&#x02BC;&aacute;&aacute;h</td>
                             <td>as&iacute;n&iacute;&#x02BC;&aogon;&#x0301;</td>
@@ -197,7 +197,7 @@
                             <td>&oacute;&oacute;&#x02BC;&aacute;&aacute;&lstrok;</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Third person" href="../appendix/glossary#third_person">3</a></th>
+                            <th><a class="glossary-link" title="Third person" href="../appendix/glossary.html#third_person">3</a></th>
                             <td>a&#x02BC;aah</td>
                             <td>n&aacute;&#x02BC;&aacute;&#x02BC;&aacute;&aacute;h</td>
                             <td>az&#x02BC;&aogon;&#x0301;</td>
@@ -205,7 +205,7 @@
                             <td>&oacute;&#x02BC;&aacute;&aacute;&lstrok;</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Third person obviative" href="../appendix/glossary#third_person_obviative">3a</a></th>
+                            <th><a class="glossary-link" title="Third person obviative" href="../appendix/glossary.html#third_person_obviative">3a</a></th>
                             <td>aji&#x02BC;aah</td>
                             <td>&nacute;&#x02BC;j&iacute;&#x02BC;&aacute;&aacute;h</td>
                             <td>ajiz&#x02BC;&aogon;&#x0301;</td>
@@ -214,8 +214,8 @@
                         </tr>
 
                         <tr>
-                            <th rowspan="2"><a class="glossary-link" title="Duoplural" href="../appendix/glossary#duoplural">DPL</a></th>
-                            <th><a class="glossary-link" title="First person" href="../appendix/glossary#first_person">1</a></th>
+                            <th rowspan="2"><a class="glossary-link" title="Duoplural" href="../appendix/glossary.html#duoplural">DPL</a></th>
+                            <th><a class="glossary-link" title="First person" href="../appendix/glossary.html#first_person">1</a></th>
                             <td>ii&#x02BC;aah</td>
                             <td>n&aacute;&#x02BC;ii&#x02BC;&aacute;&aacute;h</td>
                             <td>asii&#x02BC;&aogon;&#x0301;</td>
@@ -223,7 +223,7 @@
                             <td>oo&#x02BC;&aacute;&aacute;&lstrok;</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary#second_person">2</a></th>
+                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary.html#second_person">2</a></th>
                             <td>oh&#x02BC;aah</td>
                             <td>n&aacute;&#x02BC;&oacute;h&#x02BC;&aacute;&aacute;h</td>
                             <td>asoo&#x02BC;&aogon;&#x0301;</td>
@@ -232,8 +232,8 @@
                         </tr>
 
                         <tr>
-                            <th rowspan="4"><a class="glossary-link" title="Plural" href="../appendix/glossary#plural">PL</a></th>
-                            <th><a class="glossary-link" title="First person" href="../appendix/glossary#first_person">1</a></th>
+                            <th rowspan="4"><a class="glossary-link" title="Plural" href="../appendix/glossary.html#plural">PL</a></th>
+                            <th><a class="glossary-link" title="First person" href="../appendix/glossary.html#first_person">1</a></th>
                             <td>da&#x02BC;ii&#x02BC;aah</td>
                             <td>&nacute;da&#x02BC;ii&#x02BC;&aacute;&aacute;h</td>
                             <td>da&#x02BC;sii&#x02BC;&aogon;&#x0301;</td>
@@ -241,7 +241,7 @@
                             <td>da&#x02BC;oo&#x02BC;&aacute;&aacute;&lstrok;</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary#second_person">2</a></th>
+                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary.html#second_person">2</a></th>
                             <td>da&#x02BC;oh&#x02BC;aah</td>
                             <td>&nacute;da&#x02BC;oh&#x02BC;&aacute;&aacute;h</td>
                             <td>da&#x02BC;soo&#x02BC;&aogon;&#x0301;</td>
@@ -249,7 +249,7 @@
                             <td>da&#x02BC;ooh&#x02BC;&aacute;&aacute;&lstrok;</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Third person" href="../appendix/glossary#third_person">3</a></th>
+                            <th><a class="glossary-link" title="Third person" href="../appendix/glossary.html#third_person">3</a></th>
                             <td>da&#x02BC;a&#x02BC;aah</td>
                             <td>&nacute;da&#x02BC;a&#x02BC;&aacute;&aacute;h</td>
                             <td>da&#x02BC;az&#x02BC;&aogon;&#x0301;</td>
@@ -257,7 +257,7 @@
                             <td>da&#x02BC;&oacute;&#x02BC;&aacute;&aacute;&lstrok;</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Third person obviative" href="../appendix/glossary#third_person_obviative">3a</a></th>
+                            <th><a class="glossary-link" title="Third person obviative" href="../appendix/glossary.html#third_person_obviative">3a</a></th>
                             <td>da&#x02BC;ji&#x02BC;aah</td>
                             <td>&nacute;da&#x02BC;ji&#x02BC;&aacute;&aacute;h</td>
                             <td>da&#x02BC;jiz&#x02BC;&aogon;&#x0301;</td>

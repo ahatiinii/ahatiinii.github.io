@@ -29,13 +29,13 @@
         <div id="navbar">
             <div id="navbar-left">
                 <a href="../index.html">Search</a>
-                <a href="../appendix/index">Index</a>
-                <a href="../appendix/grammar">Grammar</a>
-                <a href="../appendix/glossary">Glossary</a>
+                <a href="../appendix/index.html">Index</a>
+                <a href="../appendix/grammar.html">Grammar</a>
+                <a href="../appendix/glossary.html">Glossary</a>
             </div>
 
             <div id="navbar-right">
-                <a href="../contact">Contact</a>
+                <a href="../contact.html">Contact</a>
             </div>
         </div>
 
@@ -49,9 +49,9 @@
             <div>
                 <span>
                     <b>Root:</b>&nbsp; <a href="./TʼÉÉH"><i>TʼÉÉH</i></a>&nbsp; <q>good, well, suitable</q><br>
-                    <b>Theme:</b>&nbsp; <a class="glossary-link" href="../appendix/glossary#neuter">neuter</a>, <a class="glossary-link" href="../appendix/glossary#&#x2205;-classifier">&#x2205;-classifier</a> (<a class="glossary-link" href="../appendix/glossary#intransitive_verb">intransitive</a>)<br>
+                    <b>Theme:</b>&nbsp; <a class="glossary-link" href="../appendix/glossary.html#neuter">neuter</a>, <a class="glossary-link" href="../appendix/glossary.html#&#x2205;-classifier">&#x2205;-classifier</a> (<a class="glossary-link" href="../appendix/glossary.html#intransitive_verb">intransitive</a>)<br>
                     <b>Thematic prefixes:</b>&nbsp; <a href="./yá-"><i>yá-</i></a>&nbsp; <q>good</q> + <a href="./ʼá-"><i>ʼá-</i></a> (comparative aspect) + <a href="./ni-"><i>ni-</i></a> (neuter imperfective adjectival)<br>
-                    <b>Conjugation paradigm:</b>&nbsp; <a class="glossary-link" href="../appendix/glossary#∅-imperfective">∅-imperfective</a><br>
+                    <b>Conjugation paradigm:</b>&nbsp; <a class="glossary-link" href="../appendix/glossary.html#∅-imperfective">∅-imperfective</a><br>
                 </span>
             </div>
 
@@ -82,52 +82,52 @@
                     <table>
                         <tr>
                             <th colspan="2"></th>
-                            <th><a class="glossary-link" title="Imperfective" href="../appendix/glossary#imperfective">IMP</a></th>
+                            <th><a class="glossary-link" title="Imperfective" href="../appendix/glossary.html#imperfective">IMP</a></th>
                         </tr>
 
                         <tr>
-                            <th rowspan="4"><a class="glossary-link" title="Singular" href="../appendix/glossary#singular">SG</a></th>
-                            <th><a class="glossary-link" title="First person" href="../appendix/glossary#first_person">1</a></th>
+                            <th rowspan="4"><a class="glossary-link" title="Singular" href="../appendix/glossary.html#singular">SG</a></th>
+                            <th><a class="glossary-link" title="First person" href="../appendix/glossary.html#first_person">1</a></th>
                             <td>yáʼáníshtʼééh</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary#second_person">2</a></th>
+                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary.html#second_person">2</a></th>
                             <td>yáʼánítʼééh</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Third person" href="../appendix/glossary#third_person">3</a></th>
+                            <th><a class="glossary-link" title="Third person" href="../appendix/glossary.html#third_person">3</a></th>
                             <td>yáʼátʼééh</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Third person obviative" href="../appendix/glossary#third_person_obviative">3a</a></th>
+                            <th><a class="glossary-link" title="Third person obviative" href="../appendix/glossary.html#third_person_obviative">3a</a></th>
                             <td>yáʼájítʼééh</td>
                         </tr>
 
                         <tr>
-                            <th rowspan="2"><a class="glossary-link" title="Duoplural" href="../appendix/glossary#duoplural">DPL</a></th>
-                            <th><a class="glossary-link" title="First person" href="../appendix/glossary#first_person">1</a></th>
+                            <th rowspan="2"><a class="glossary-link" title="Duoplural" href="../appendix/glossary.html#duoplural">DPL</a></th>
+                            <th><a class="glossary-link" title="First person" href="../appendix/glossary.html#first_person">1</a></th>
                             <td>yáʼániitʼééh</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary#second_person">2</a></th>
+                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary.html#second_person">2</a></th>
                             <td>yáʼánóhtʼééh</td>
                         </tr>
 
                         <tr>
-                            <th rowspan="4"><a class="glossary-link" title="Plural" href="../appendix/glossary#plural">PL</a></th>
-                            <th><a class="glossary-link" title="First person" href="../appendix/glossary#first_person">1</a></th>
+                            <th rowspan="4"><a class="glossary-link" title="Plural" href="../appendix/glossary.html#plural">PL</a></th>
+                            <th><a class="glossary-link" title="First person" href="../appendix/glossary.html#first_person">1</a></th>
                             <td>yáʼádaniitʼééh</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary#second_person">2</a></th>
+                            <th><a class="glossary-link" title="Second person" href="../appendix/glossary.html#second_person">2</a></th>
                             <td>yáʼádanohtʼééh</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Third person" href="../appendix/glossary#third_person">3</a></th>
+                            <th><a class="glossary-link" title="Third person" href="../appendix/glossary.html#third_person">3</a></th>
                             <td>yáʼádaatʼééh</td>
                         </tr>
                         <tr>
-                            <th><a class="glossary-link" title="Third person obviative" href="../appendix/glossary#third_person_obviative">3a</a></th>
+                            <th><a class="glossary-link" title="Third person obviative" href="../appendix/glossary.html#third_person_obviative">3a</a></th>
                             <td>yáʼádajitʼééh</td>
                         </tr>
                     </table>
