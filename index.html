@@ -29,9 +29,9 @@
         <div id="navbar">
             <div id="navbar-left">
                 <a href="./index.html">Search</a>
-                <a href="./appendix/index.html">Index</a>
-                <a href="./appendix/grammar.html">Grammar</a>
-                <a href="./appendix/glossary.html">Glossary</a>
+                <a href="./root-index.html">Index</a>
+                <a href="./grammar.html">Grammar</a>
+                <a href="./glossary.html">Glossary</a>
             </div>
 
             <div id="navbar-right">
@@ -43,7 +43,7 @@
         <div id="search">
             <!-- search bar -->
             <form id="search-bar">
-                  <input type="text" id="keyword" name="keyword" autocomplete="off" autofocus onkeydown="check_delete(event)">
+                  <input type="text" id="keyword" name="search" autocomplete="off" autofocus onkeydown="check_delete(event)">
                   <button type="submit" id="search-button"></button>
             </form>
 
@@ -87,12 +87,16 @@
             </div>
         </div>
 
-        <!-- results -->
+        <!-- search results -->
         <div>
             <p class="info" id="match-info"></p>
         </div>
 
         <div id="results"></div>
+
+        <!-- entry display -->
+        <div class="entry">
+        </div>
 
         <!-- scripts -->
         <script src="./js/keyboard.js"></script>
