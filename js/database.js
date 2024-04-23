@@ -7,12 +7,49 @@ var database;
 
 
 async function db_main () {
-    var response = await fetch('./data/dictionary.json');
-    var text = await response.text();
-    var json = JSON.parse(text);
+    // var response = await fetch('./data/dictionary.json');
+    // var text = await response.text();
+    // var json = JSON.parse(text);
 
-    this.database = json;
+    // this.database = json;
+    this.database = 
+    {
+        dictionary : [
+            {
+                word: "yáʼáníshtʼééh",
+                fuzzy: "yaanishte",
+                type: "Verb",
+                root: "TʼÉÉH",
+                theme: "Neuter, ∅-classifier (intransitive)",
+                theme_prefixes: [ "yá-", "ʼá-", "ni-" ],
+                base_prefixes: [ ],
+                paradigm: [ "∅-imperfective" ],
+                definition: [
+                    "To be well, good, suitable, agreeable.",
+                    "*yáʼátʼééh*: hello."
+                ]
+            },
+
+            {
+                word: "ashishʼaah",
+                fuzzy: "ashisha",
+                type: "Verb",
+                root: "ʼĄ́",
+                theme: "Momentaneous, ∅-classifier (transitive)",
+                theme_prefixes: [ ],
+                base_prefixes: [ "ʼa-" ],
+                paradigm: [ "si-imperfective/si-perfective", "∅-imperfective/si-perfective" ],
+                definition: [
+                    "To place an unspecified [SRO] in position (where it remains static).",
+                    // "{bił} {dah} — : To button it (something with a single button); to padlock it (a door or gate)."
+                    "*bił dah* — : To button it (something with a single button); to padlock it (a door or gate)."
+                ]
+            }
+        ]
+    }
 }
+
+
 
 
 /*
@@ -33,19 +70,23 @@ function search_db (query) {
         if (this.database.dictionary[i].fuzzy == squery) {
             if (this.database.dictionary[i].word.toLowerCase() == nquery) {
                 // exact match
-                results_exact.push(this.database.dictionary[i]);
+                results_exact.push(i);
             }
             else {
                 // fuzzy match
-                results_fuzzy.push(this.database.dictionary[i]);
+                results_fuzzy.push(i);
             }
         }
         else {
+            // TODO: does this have to be like this?
             let re = new RegExp('\\b' + nquery + '\\b');
 
-            if (this.database.dictionary[i].definition.toLowerCase().match(re)) {
-                // match in definition
-                results_definition.push(this.database.dictionary[i]);
+            for (let j = 0; j < this.database.dictionary[i].definition.length; ++j) {
+                // TODO: strip special characters from definition
+                if (this.database.dictionary[i].definition[j].toLowerCase().match(re)) {
+                    // match in definition
+                    results_definition.push(i);
+                }
             }
         }
     }
@@ -64,7 +105,6 @@ function strip_word (string) {
     newstring = newstring.replace(/([aeio])\1/g, '$1');
     newstring = newstring.replace(/\u02BC/g, '');
 
-    newstring = newstring.replace(/h([bcdgjklmnstyz])/g, '$1');
     newstring = newstring.replace(/h$/g, '');
 
     return newstring;

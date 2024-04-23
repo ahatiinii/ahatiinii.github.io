@@ -42,13 +42,13 @@
         <!-- search -->
         <div id="search">
             <!-- search bar -->
-            <form id="search-bar">
-                  <input type="text" id="keyword" name="search" autocomplete="off" autofocus onkeydown="check_delete(event)">
-                  <button type="submit" id="search-button"></button>
-            </form>
+            <div id="search-bar">
+                <input type="text" id="keyword" autocomplete="off" autofocus onkeydown="check_keys(event)">
+                <button id="search-button" onclick="click_search(document.getElementById('keyword').value)"></button>
+            </div>
 
-            <input type="button" id="keyboard-down-button" onclick="toggle_keyboard()">
-            <input type="button" id="keyboard-up-button" onclick="toggle_keyboard()">
+            <input type="button" id="keyboard-down-button" onclick="toggle_keyboard()" value="&#xA0;">
+            <input type="button" id="keyboard-up-button" onclick="toggle_keyboard()" value="&#xA0;">
 
             <!-- keyboard -->
             <div id="keyboard">
@@ -89,14 +89,13 @@
 
         <!-- search results -->
         <div>
-            <p class="info" id="match-info"></p>
+            <p id="match-info"></p>
         </div>
 
         <div id="results"></div>
 
         <!-- entry display -->
-        <div class="entry">
-        </div>
+        <div id="entry"></div>
 
         <!-- scripts -->
         <script src="./js/keyboard.js"></script>

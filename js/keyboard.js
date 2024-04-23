@@ -4,13 +4,18 @@
 
 
 /*
- * treat accented letters as single letters for delete/backspace
+ * process keypresses in the input field
  */
-function check_delete (ev) {
+function check_keys (ev) {
     const input = document.getElementById('keyword');
     var cursorpos = input.selectionStart;
 
-    if (input.selectionStart == input.selectionEnd) {
+    if (ev.key == 'Enter') {
+        document.getElementById('search-button').click();
+    }
+
+    // treat accented letters as single letters for delete/backspace
+    else if (input.selectionStart == input.selectionEnd) {
         if (ev.key == 'Backspace') {
             if (input.value[cursorpos - 1] == '\u0301') {
                 input.value = input.value.slice(0, cursorpos - 1) + input.value.slice(cursorpos);
@@ -58,5 +63,7 @@ function enter_letter (letter) {
     input.value = input.value.slice(0, cursorpos) + letter + input.value.slice(cursorpos);
 
     input.focus();
+
+    // adjust cursor position accounting for double characters
     input.selectionStart = input.selectionEnd = cursorpos + letter.length;
 }
