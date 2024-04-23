@@ -68,7 +68,7 @@ function add_entry (entry_num) {
 
     results_box.innerHTML +=
         // '<button class="term-box" title="' + entry.word + '" onclick="display_entry(\'' + entry_num + '\')">' +
-        '<button class="term-box" title="' + entry.word + '" onclick="window.location.href=\'./dict/' + entry.word + '\';">' +
+        '<button class="term-box" title="' + entry.word + '" onclick="window.location.href=\'./dict/' + entry.word + '.html\';">' +
         '<div class="term-box-header">' + entry.word + '</div><div>' +
         '(' + entry.type + ')<br>' +
         definition + 
