@@ -58,6 +58,7 @@ h2 {
 h3 {
     font-size: 30px;
     font-weight: normal;
+    font-style: normal;
     margin: 0px;
 }
 
@@ -146,7 +147,7 @@ audio {
 }
 
 .underline {
-    margin: 0px -10px 25px -10px;
+    margin: 0px -50px 25px -10px;
     color: #C0C0C0;
 }
 
@@ -178,9 +179,7 @@ audio {
 }
 
 .term-box-header {
-    font-size: 22px;
-    font-weight: bold;
-    font-style: italic;
+    font-size: 20px;
     padding: 5px 0px 15px 0px;
 }
 
@@ -299,19 +298,6 @@ audio {
     display: none;
 }
 
-#arrow {
-    position: absolute;
-    background: url('../icons/arrow.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-size: 25px;
-    padding: 0px 0px 0px 40px;
-    margin-left: auto;
-    margin-right: 10px;
-    float: right;
-}
-
 #keyboard {
     display: none;
     position: relative;
@@ -362,13 +348,13 @@ audio {
     top: 140px;
     width: 100%;
     height: 100%;
-    overflow: auto;
+    overflow: none;
     background-color: white;
 }
 
 #page-content-modal {
     position: relative;
-    margin: 30px 50px 100px 50px; /* TODO: align top margin with glossary, etc. pages */
+    margin: 30px 100px 0px 50px; /* TODO: align top margin with glossary, etc. pages */
     font-size: 18px;
 }
 
@@ -377,16 +363,16 @@ audio {
 }
 
 #close {
-    color: #B0B0B0;
-    margin-right: 25px;
+    color: #909090;
+    margin-right: 30px;
     background-size: contain;
-    padding: 5px;
+    padding: 10px 20px 5px 20px;
     float: right;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: bold;
 }
 
 #close:hover, #close:focus {
-    color: #D0D0D0;
+    color: #C0C0C0;
     cursor: pointer;
 }

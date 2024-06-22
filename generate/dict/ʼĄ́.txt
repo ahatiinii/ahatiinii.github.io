@@ -1,0 +1,22 @@
+ʼĄ́
+Root
+
+1
+Definition:
+* [Handle] [SRO].
+
+Stems:
+IMP ITER/USIT PERF PROG FUT OPT
+MOM ʼaah ʼááh ʼą́ - ʼááł ʼááł
+CONT ʼá ʼaah ʼą́ - ʼaał ʼaał
+DIST ʼaʼ ʼaah ʼą́ - ʼaał ʼaʼ
+DIV ʼaʼ ʼaah ʼą́ - ʼaał ʼaʼ
+REV ʼááh ʼaah ʼą́ - ʼááł/ʼaah ʼááł
+CON ʼááh ʼááh ʼááh - ʼááh ʼaał
+TRANS ʼaah ʼaah ʼaʼ - ʼaał ʼaah
+CURS - - - ʼááł/ʼaah - -
+NEUT - - ʼą́ - - -
+
+Verbs:
+MOM: ashishʼaah iishʼaah
+CONT: naashʼá

@@ -1,0 +1,16 @@
+naashʼá
+Verb
+
+Root: ʼĄ́
+Classifier: ∅-
+Prefixes: na- (1-Ib)
+Aspect: CONT
+Type: transitive
+
+Definition:
+* To carry it ([SRO]) around (here and there).
+* To have it ([SRO]).
+* To make a round trip carrying it ([SRO]).
+
+Conjugation:
+∅-IMP/si-PERF (na-1-Ib)

@@ -1,0 +1,15 @@
+iishʼaah
+Verb
+
+Root: ʼĄ́
+Classifier: ∅-
+Prefixes: ʼa- (Ib)
+Aspect: MOM
+Type: transitive
+
+Definition:
+* To move it ([SRO]) away out of sight.
+* {adah} — : To bring it down, descend carrying it, lower it down, unload it ([SRO]).
+
+Conjugation:
+∅-IMP/yi-PERF (ʼa-Ib)

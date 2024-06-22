@@ -1,0 +1,11 @@
+ʼÁÁZH
+Root
+
+* Walk, go ([2S]).
+
+IMP ITER PERF PROG FUT OPT
+MOM ʼaash ʼash ʼáázh - ʼash ʼaash
+CONT ʼaash ʼash ʼáázh - ʼash ʼaash
+DIV ʼaash ʼash ʼáázh - ʼash ʼaash
+CON ʼaash - - - - -
+CURS - - - ʼash/ʼaash - -

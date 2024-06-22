@@ -1,0 +1,14 @@
+naassįʼ
+Verb
+
+Root: ZĮʼ
+Classifier: ∅-
+Prefixes: na-
+Aspect: DIV
+Type: intransitive
+
+Definition:
+* To stand around, loiter, hang around ([1S]).
+
+Conjugation:
+∅-IMP ()

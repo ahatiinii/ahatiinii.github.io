@@ -1,0 +1,13 @@
+DÁ
+Root
+
+* Sit ([1S]).
+
+IMP ITER PERF FUT OPT
+MOM daah daah dá - daał daah
+CONT daʼ - - - - -
+DIST daʼ daah dá - daał daʼ
+TRANS daah daah - - daał daah
+CURS - - - daał - -
+NEUT - - dá - - -
+? daah daah daʼ - daał daʼ

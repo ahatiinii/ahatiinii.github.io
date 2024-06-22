@@ -1,0 +1,12 @@
+DĄZH
+Root
+
+* Move jerkily.
+
+IMP ITER/USIT PERF FUT OPT
+MOM dą́ą́sh dąsh dązh - dąsh dą́ą́sh
+TRANS dą́ą́sh dąsh dązh - dąsh dą́ą́sh
+CONT dą
+REP
+CURS
+NEUT

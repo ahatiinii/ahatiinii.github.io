@@ -1,0 +1,14 @@
+bíniissį́įh
+Verb
+
+Root: ZĮʼ
+Classifier: ł-
+Prefixes: bí- nii-
+Aspect: MOM
+Type: transitive
+
+Definition:
+* To lean it ([1S]) against it in a standing position.
+
+Conjugation:
+∅-IMP/∅-PERF ()

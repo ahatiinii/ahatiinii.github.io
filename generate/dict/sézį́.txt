@@ -1,0 +1,14 @@
+sézį́
+Verb
+
+Root: ZĮʼ
+Classifier: ∅-
+Prefixes:
+Aspect: NEUT
+Type: intransitive
+
+Definition:
+* To stand, be standing, be in a standing position (anything with legs or wheels, [1S]).
+
+Conjugation:
+si-PERF (si-2-VII)

@@ -1,0 +1,16 @@
+ashishʼaah
+Verb
+
+Root: ʼĄ́
+Classifier: ∅-
+Prefixes: ʼa- (2-IV)
+Aspect: MOM
+Type: transitive
+
+Definition:
+* To place it (unspecified [SRO]) in position (where it remains static).
+* {bił} {dah} — : To button it (something with a single button); to padlock it (a door or gate).
+
+Conjugation:
+si-IMP/si-PERF (ʼa-2-IV)
+∅-IMP/si-PERF (ʼa-2-IV)

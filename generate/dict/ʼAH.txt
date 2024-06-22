@@ -1,0 +1,13 @@
+ʼAH
+Root
+
+1
+* [Propel] [FFO].
+
+IMP ITER PERF PROG FUT OPT
+MOM ʼáád ʼaʼ ʼah - ʼał ʼáád
+CONT ʼah ʼah ʼah - ʼał ʼah
+REP ʼad ʼaʼ ʼad - ʼaʼ ʼad
+SEM ʼad ʼad ʼad - ʼał ʼad
+CURS - - - ʼał/ʼáád - -
+? ʼad ʼah ʼah - ʼał ʼad

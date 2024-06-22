@@ -1,0 +1,29 @@
+yáʼáníshtʼééh
+Verb
+
+Root: TʼÉÉH
+Classifier: ∅-
+Prefixes: yá- (3-Ib), ʼá- (3-Ib), ni- (6-VIb)
+Aspect: NEUT
+Type: intransitive
+
+Definition:
+* To be well, good, suitable, agreeable.
+* *yáʼátʼééh*: hello.
+
+Conjugation:
+∅-IMP (-)
+
+Conjugation table:
+∅-IMP
+1-SG yáʼánísh
+2-SG yáʼání
+3-SG yáʼá
+3a-SG yáʼájí
+3s-SG yáʼáhoo
+1-DPL yáʼánii
+2-DPL yáʼánóh
+1-PL yáʼádanii
+2-PL yáʼádanoh
+3-PL yáʼádaa
+3a-PL yáʼádaji

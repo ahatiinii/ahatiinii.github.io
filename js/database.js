@@ -7,49 +7,27 @@ var database;
 
 
 async function db_main () {
-    // var response = await fetch('./data/dictionary.json');
-    // var text = await response.text();
-    // var json = JSON.parse(text);
+    var response = await fetch('./data/dictionary.json');
+    var text = await response.text();
+    var json = JSON.parse(text);
 
-    // this.database = json;
-    this.database = 
-    {
-        dictionary : [
-            {
-                word: "yáʼáníshtʼééh",
-                fuzzy: "yaanishte",
-                type: "Verb",
-                root: "TʼÉÉH",
-                theme: "Neuter, ∅-classifier (intransitive)",
-                theme_prefixes: [ "yá-", "ʼá-", "ni-" ],
-                base_prefixes: [ ],
-                paradigm: [ "∅-imperfective" ],
-                definition: [
-                    "To be well, good, suitable, agreeable.",
-                    "*yáʼátʼééh*: hello."
-                ]
-            },
-
-            {
-                word: "ashishʼaah",
-                fuzzy: "ashisha",
-                type: "Verb",
-                root: "ʼĄ́",
-                theme: "Momentaneous, ∅-classifier (transitive)",
-                theme_prefixes: [ ],
-                base_prefixes: [ "ʼa-" ],
-                paradigm: [ "si-imperfective/si-perfective", "∅-imperfective/si-perfective" ],
-                definition: [
-                    "To place an unspecified [SRO] in position (where it remains static).",
-                    // "{bił} {dah} — : To button it (something with a single button); to padlock it (a door or gate)."
-                    "*bił dah* — : To button it (something with a single button); to padlock it (a door or gate)."
-                ]
-            }
-        ]
-    }
+    this.database = json;
 }
 
 
+
+/*
+ * search the database for an exact match
+ */
+function search_db_exact (query) {
+    for (let i = 0; i < this.database.dictionary.length; ++i) {
+        if (this.database.dictionary[i].word == query) {
+            return i;
+        }
+    }
+
+    return -1;
+}
 
 
 /*
@@ -67,15 +45,21 @@ function search_db (query) {
     var results_definition = [];
 
     for (let i = 0; i < this.database.dictionary.length; ++i) {
-        if (this.database.dictionary[i].fuzzy == squery) {
-            if (this.database.dictionary[i].word.toLowerCase() == nquery) {
-                // exact match
-                results_exact.push(i);
-            }
-            else {
-                // fuzzy match
-                results_fuzzy.push(i);
-            }
+        // TODO: make fuzzy matching work again
+        // if (this.database.dictionary[i].fuzzy == squery) {
+        //     if (this.database.dictionary[i].word.toLowerCase() == nquery) {
+        //         // exact match
+        //         results_exact.push(i);
+        //     }
+        //     else {
+        //         // fuzzy match
+        //         results_fuzzy.push(i);
+        //     }
+        // }
+
+        if (this.database.dictionary[i].word.toLowerCase() == nquery) {
+            // exact match
+            results_exact.push(i);
         }
         else {
             // TODO: does this have to be like this?

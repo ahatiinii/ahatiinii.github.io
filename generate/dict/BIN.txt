@@ -1,0 +1,10 @@
+BIN
+Root
+
+2
+* Sit ([3+S]).
+
+IMP ITER PERF FUT OPT
+MOM bįįh bįįh bin bįįł bįįh
+DIST bin bįįh bin bįįł bin
+NEUT bin - {tą́:TĄ́#2} - -
